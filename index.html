@@ -13,32 +13,33 @@
     <title>Document</title>
 </head>
 <body>
-  <header> <nav class="nav">
+  <header> <nav class="nav" id="">
     <div class="head"><h4 class="animate__animated animate__rubberBand animate__delay-0.5s">PortFolio</h4></div>
     <div class="links">
         <ul>
-            <li><a>Home</a></li>
+            <li><a href="#intro">Home</a></li>
             <li><a>Resume</a></li>
-            <li><a>Contact</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </div>
     </nav>
 </header> 
-    <section class="intro">
+    <section class="intro" id="intro">
         <div>
             <h4>Hello, My Name Is</h4>
             <h2>Mohamed Gedi</h2>
             <h4 class="dash">An Enthusastic Web and Android Developer</h4>
-            <a href="#aboutTx">About me</a>
+            <a href="#about">About me</a>
         </div>
     </section>
-   <section class="about">
+   <section class="about" id="about">
     <div class="container-fluid row aboutBx">
         <div class="col-md-5 col-xs-5" id="aboutTx">
             <h2>About me</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quod, obcaecati eum odit ducimus perferendis laborum sequi impedit sunt quo a repellat fugit omnis optio ut iure, animi facere! Quo.</p>
+            <p>I am a fourth year computer science student passionate about Web and 
+            Android programming. I am also a KamiLimu mentee.  </p>
             </div>
-        <div class="col-md-6 col-sm-6 col-xs-5" id="aboutImg">
+        <div class="col-md-6 col-sm-6 col-xs-6" id="aboutImg">
         <img src="steps-388914_1920.jpg" alt="picture" class="img-fluid">
         </div>
     </div>
@@ -49,18 +50,173 @@
        </div>
     <div class="container-fluid row">
         <div class = "col-md-3 col-sm-5 col-xs-12">
-            <i class="fa fa-cog fa-4x" aria-hidden="true"></i>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro voluptas eos totam fugiat. Earum velit placeat dolore facere nemo voluptate, consectetur provident amet culpa fuga soluta repellat ratione necessitatibus ducimus.</p>
+            <i class="fa fa-pencil-square-o fa-4x"></i>
+            <h4 class="lead">Creating a blog site</h4>
+            <p>Created a blog site using HTML, CSS, JavaScript and MongoDB. The blog site was created for people to air their thoughts about the Corona Lockdown</p>
         </div>
         <div class = "col-md-3 col-sm-5 col-xs-12">
-            <i class="fa fa-cog fa-4x" aria-hidden="true"></i>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro voluptas eos totam fugiat. Earum velit placeat dolore facere nemo voluptate, consectetur provident amet culpa fuga soluta repellat ratione necessitatibus ducimus.</p>
+            <i class="fa fa-film fa-4x" aria-hidden="true"></i>
+            <h4 class="lead">Movie App</h4>
+            <p>Made a movie app that uses API to display different genres of movies including the latest and mostly viewed ones</p>
         </div>
         <div class = "col-md-3 col-sm-8 col-xs-12">
-            <i class="fa fa-cog fa-4x" aria-hidden="true"></i>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro voluptas eos totam fugiat. Earum velit placeat dolore facere nemo voluptate, consectetur provident amet culpa fuga soluta repellat ratione necessitatibus ducimus.</p>
+            <i class="fa fa-newspaper-o fa-4x" aria-hidden="true"></i>
+            <h4 class="lead">News App</h4>
+            <p>Currently working on a news app. This app will use a news API to display the latest news om different issues  </p>
         </div>
     </div>
    </section>
+  <section class="container-fluid skills">
+      <div class="skillsHeader">
+          <h2>skills</h2>
+      </div>
+   <div class="row justify-content-around">
+       <div class="card card1 col-md-3 col-sm-5 col-xs-12">
+           <div class="box">
+               <div class="percent">
+                   <svg>
+                       <circle cx="70" cy="70" r="70"></circle>
+                       <circle cx="70" cy="70" r="70"></circle>
+                   </svg>
+                   <div class="number">
+                       <h2>90<span>%</span></h2>
+                   </div>
+                
+               </div>
+               <h2 class="text">HTML</h2>
+           </div>
+       </div>
+       <div class="card card2 col-md-3 col-sm-5 col-xs-12">
+        <div class="box">
+            <div class="percent">
+                <svg>
+                    <circle cx="70" cy="70" r="70"></circle>
+                    <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+                <div class="number">
+                    <h2>85<span>%</span></h2>
+                </div>
+             
+            </div>
+            <h2 class="text">CSS</h2>
+        </div>
+    </div>
+    <div class="card card3 col-md-3 col-sm-5 col-xs-12">
+        <div class="box">
+            <div class="percent">
+                <svg>
+                    <circle cx="70" cy="70" r="70"></circle>
+                    <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+                <div class="number">
+                    <h2>70<span>%</span></h2>
+                </div>
+             
+            </div>
+            <h2 class="text">JavaScript</h2>
+        </div>
+    </div>
+   </div>
+  </section>
+  <section class="contact container-fluid" id="contact">
+      <div >
+         <div class="ContactHeader">
+              <h3>Contact Me</h3>
+         </div>
+         <div class="icons row">
+           
+               <a href="https://www.facebook.com/gedimohammed"> <i class="fa fa-facebook fa-4x" aria-hidden="true"></i></a>
+
+            
+            
+               <a href="https://twitter.com/gedimohammed"> <i class="fa fa-twitter fa-4x" aria-hidden="true"></i></a>
+
+          
+            
+              <a href="https://www.instagram.com/mohamed_gedi_254"> <i class="fa fa-instagram fa-4x" aria-hidden="true"></i></a> 
+
+            
+         </div>
+         <div class="row">
+
+            <!--Grid column-->
+            <div class="col-md-9 mb-md-0 mb-5">
+                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+    
+                    <!--Grid row-->
+                    <div class="row">
+    
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="name" name="name" class="form-control">
+                                <label for="name" class="">Your name</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+    
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="email" name="email" class="form-control">
+                                <label for="email" class="">Your email</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+    
+                    </div>
+                    <!--Grid row-->
+    
+                    <!--Grid row-->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form mb-0">
+                                <input type="text" id="subject" name="subject" class="form-control">
+                                <label for="subject" class="">Subject</label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Grid row-->
+    
+                    <!--Grid row-->
+                    <div class="row">
+    
+                        <!--Grid column-->
+                        <div class="col-md-12">
+    
+                            <div class="md-form">
+                                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                <label for="message">Your message</label>
+                            </div>
+    
+                        </div>
+                    </div>
+                    <!--Grid row-->
+    
+                </form>
+    
+                <div class="text-center text-md-left">
+                    <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                </div>
+                <div class="status"></div>
+            </div>
+            <!--Grid column-->
+            <div class="col-md-3 text-center">
+                <ul class="list-unstyled mb-0">
+                    <li><i class="fa fa-map-marker-alt fa-2x"></i>
+                        <p>Nairobi Kenya</p>
+                    </li>
+    
+                    <li><i class="fa fa-phone mt-4 fa-2x"></i>
+                        <p>+ 254 712855010</p>
+                    </li>
+    
+                    <li><i class="fa fa-envelope mt-4 fa-2x"></i>
+                        <p>gedimohammed@gmail.com</p>
+                    </li>
+                </ul>
+            </div>
+      </div>
+  </section>
 </body>
 </html>
