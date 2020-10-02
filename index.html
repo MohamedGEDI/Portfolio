@@ -3,12 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://use.fontawesome.com/0fe1262000.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <link rel="stylesheet" href="style.css" type="text/css"/>
     <title>Document</title>
 </head>
 <body>
   <header> <nav class="nav">
-    <div class="head"><h4>PortFolio</h4></div>
+    <div class="head"><h4 class="animate__animated animate__rubberBand animate__delay-0.5s">PortFolio</h4></div>
     <div class="links">
         <ul>
             <li><a>Home</a></li>
@@ -23,9 +29,38 @@
             <h4>Hello, My Name Is</h4>
             <h2>Mohamed Gedi</h2>
             <h4 class="dash">An Enthusastic Web and Android Developer</h4>
-            <a href="#">About</a>
+            <a href="#aboutTx">About me</a>
         </div>
     </section>
-    <section></section>
+   <section class="about">
+    <div class="container-fluid row aboutBx">
+        <div class="col-md-5 col-xs-5" id="aboutTx">
+            <h2>About me</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quod, obcaecati eum odit ducimus perferendis laborum sequi impedit sunt quo a repellat fugit omnis optio ut iure, animi facere! Quo.</p>
+            </div>
+        <div class="col-md-6 col-sm-6 col-xs-5" id="aboutImg">
+        <img src="steps-388914_1920.jpg" alt="picture" class="img-fluid">
+        </div>
+    </div>
+   </section>
+   <section class = "project">
+       <div class="projectsHeader">
+           <h2>Projects</h2>
+       </div>
+    <div class="container-fluid row">
+        <div class = "col-md-3 col-sm-5 col-xs-12">
+            <i class="fa fa-cog fa-4x" aria-hidden="true"></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro voluptas eos totam fugiat. Earum velit placeat dolore facere nemo voluptate, consectetur provident amet culpa fuga soluta repellat ratione necessitatibus ducimus.</p>
+        </div>
+        <div class = "col-md-3 col-sm-5 col-xs-12">
+            <i class="fa fa-cog fa-4x" aria-hidden="true"></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro voluptas eos totam fugiat. Earum velit placeat dolore facere nemo voluptate, consectetur provident amet culpa fuga soluta repellat ratione necessitatibus ducimus.</p>
+        </div>
+        <div class = "col-md-3 col-sm-8 col-xs-12">
+            <i class="fa fa-cog fa-4x" aria-hidden="true"></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro voluptas eos totam fugiat. Earum velit placeat dolore facere nemo voluptate, consectetur provident amet culpa fuga soluta repellat ratione necessitatibus ducimus.</p>
+        </div>
+    </div>
+   </section>
 </body>
 </html>
